@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>task4/calculator</title>
+        
+        <link rel="stylesheet" href="css/main.css">
+        
+    </head> 
+    <body>
+        <div id="wrapper">
+           
+            <div id="header">
+                
+                <div id="history">
+                    <ul id="historyUl">
+                    </ul>
+                </div>
+                
+                <div id="input-area">
+                   <span id="expression"></span>
+                    <input type="text" readonly="readonly" id="result"/>
+                </div>
+                
+            </div>
+            
+            <div id="main">
+                
+                <div id="left-side">
+                    
+                    <input type="button" value="←" class="btn operation" />
+                    <input type="button" value="CE" class="btn operation" />
+                    <input type="button" value="7" class="btn symbol" />
+                    <input type="button" value="8" class="btn symbol" />
+                    <input type="button" value="4" class="btn symbol" />
+                    <input type="button" value="5" class="btn symbol" />
+                    <input type="button" value="1" class="btn symbol" />
+                    <input type="button" value="2" class="btn symbol" />
+                    <input type="button" value="0" class="btn symbol btn-wide" />
+                    
+                </div>
+                
+                <div id="middle-side">
+                    
+                    <input type="button" value="C" class="btn operation" />
+                    <input type="button" value="+/-" class="btn operation" />
+                    <input type="button" value="9" class="btn symbol" />
+                    <input type="button" value="/" class="btn operation" />
+                    <input type="button" value="6" class="btn symbol" />
+                    <input type="button" value="*" class="btn operation" />
+                    <input type="button" value="3" class="btn symbol" />
+                    <input type="button" value="-" class="btn operation" />
+                    <input type="button" value="." class="btn symbol" />
+                    <input type="button" value="+" class="btn operation" />
+                    
+                </div>
+                
+                <div id="right-side">
+                    
+                    <input type="button" value= "√" class="btn operation" />
+                    <input type="button" value="%" class="btn operation" />
+                    <input type="button" value="1/x" class="btn operation" />
+                    <input type="button" value="=" class="btn operation btn-high" />
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <script src="js/jquery.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
+
